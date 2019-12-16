@@ -25,5 +25,14 @@ Before you can run the API
 
   for windows:  
     * You will need to download the latest version of python from the python website  
-      [Python download](https://www.python.org/downloads/)  
+      [Python download here.. ](https://www.python.org/downloads/)  
       * The page had multiple option and python versions and you can download the one that  best suits you but i would recommend the most recent version.
+
+  * Install __virtalenv__  
+    1. For Linux:  
+      > sudo apt-get update  
+      > sudo apt-get install virtualenv  
+
+    2. For windows:  
+      __after installing python and pip__  
+        > pip install virtualenv 
