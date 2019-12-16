@@ -22,3 +22,8 @@ Before you can run the API
     but to upgrade python to get the updated version  
     > sudo apt-get update  
     >sudo apt-get upgrade  
+
+  for windows:  
+    * You will need to download the latest version of python from the python website  
+      [Python download](https://www.python.org/downloads/)  
+      * The page had multiple option and python versions and you can download the one that  best suits you but i would recommend the most recent version.
