@@ -1,11 +1,7 @@
 # DHL | File Upload
 
-### Installation
-**Note 1**: *This is custome to only DHL*
-1. clone the repo
-> git clone https://github.com/edmondsylar/DHL.git
+### Preinstalled
 
-**NOTE 2**  
 Before you can run the API  
 * make sure you have git installed.  
   for Debian:  
@@ -36,3 +32,20 @@ Before you can run the API
   2. For windows:  
     __after installing python and pip__  
      > pip install virtualenv
+
+## Installation  
+
+* clone the project to your local machine  
+  > git clone https://github.com/edmondsylar/DHL.git  
+
+* installation  
+  * creata a virtualenv  
+    * For Linux:  
+      > virtualenv env -p python3  
+
+    * For windows:  
+      > virtualenv env -p python3  
+      **OR**  
+      > python -m virtualenv env p python3  
+
+    _you can use whichever works for you depending on how you installed your virtualenv_
