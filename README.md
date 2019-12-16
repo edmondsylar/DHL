@@ -28,7 +28,7 @@ Before you can run the API
       [Python download here.. ](https://www.python.org/downloads/)  
       * The page had multiple option and python versions and you can download the one that  best suits you but i would recommend the most recent version.  
 
-  * Install __virtalenv__  
+  * Install virtualenv 
     1. For Linux:  
       > sudo apt-get update  
       > sudo apt-get install virtualenv  
