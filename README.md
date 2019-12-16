@@ -39,7 +39,7 @@ Before you can run the API
   > git clone https://github.com/edmondsylar/DHL.git  
 
 * installation  
-  * creata a virtualenv  
+  1. creata a virtualenv  
     * For Linux:  
       > virtualenv env -p python3  
 
@@ -48,4 +48,14 @@ Before you can run the API
       **OR**  
       > python -m virtualenv env p python3  
 
-    <!-- _you can use whichever works for you depending on how you installed your virtualenv_ -->
+    __you can use whichever works for you depending on how you installed your virtualenv__  
+
+  2. Activate virtualenv  
+    * Linux:  
+    > source env/bin/activate  
+
+    * Windows  
+    > source env/Scripts/activate  
+
+  3. install requirements file  
+    > pip install -r requirements.txt  
