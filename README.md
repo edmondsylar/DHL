@@ -7,7 +7,11 @@
 
 **NOTE 2**  
 Before you can run the API  
-* make sure you have git installed (If you are a linux user).  
+* make sure you have git installed.  
   for Debian:  
   > sudo apt-get update  
   > sudo apt-get install git  
+
+  for windows:  
+  * Download git from official site  
+  [download git and or git bash](https://git-scm.com/download/win)
