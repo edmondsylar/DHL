@@ -48,4 +48,4 @@ Before you can run the API
       **OR**  
       > python -m virtualenv env p python3  
 
-    _you can use whichever works for you depending on how you installed your virtualenv_
+    <!-- _you can use whichever works for you depending on how you installed your virtualenv_ -->
