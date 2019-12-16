@@ -6,12 +6,15 @@ app = Flask(__name__)
 
 @app.route('/', methods=['POST', 'GET', 'PUT'])
 def onlyroute():
+    status = ''
     if request.method == 'POST':
         if request.files['upload_file']:
             f=request.files['upload_file']
             name = f.filename
             usr = DHL(name)
-    return render_template('upload.html', msg=usr.res())
+            status = usr.res()
+            # return status message
+    return render_template('upload.html', msg = status)
 
 
 if __name__ == '__main__':
