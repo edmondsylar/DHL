@@ -52,10 +52,20 @@ Before you can run the API
 
   2. Activate virtualenv  
     * Linux:  
-    > source env/bin/activate  
+      > source env/bin/activate  
 
     * Windows  
-    > source env/Scripts/activate  
+      > source env/Scripts/activate  
 
   3. install requirements file  
-    > pip install -r requirements.txt  
+      > pip install -r requirements.txt  
+
+
+## Running the application
+  To run the application you can either use the flask command or python’s -m switch with Flask. Before you can do that you need to tell your terminal the application to work with by exporting the FLASK_APP environment variable
+
+**NOTE** This is done once.  
+  > export FLASK_APP=app.py  
+
+**RUNNING THE APP**  
+  > flask run 
