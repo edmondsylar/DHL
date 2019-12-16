@@ -14,4 +14,11 @@ Before you can run the API
 
   for windows:  
   * Download git from official site  
-  [download git and or git bash](https://git-scm.com/download/win)
+  [download git and or git bash](https://git-scm.com/download/win)  
+
+* Make sure you have python installed  
+  for Linux:  
+  * python comes preinstalled on the system at least (version 2)  
+    but to upgrade python to get the updated version  
+    > sudo apt-get update  
+    >sudo apt-get upgrade  
